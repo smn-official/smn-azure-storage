@@ -1,0 +1,39 @@
+{
+  "name": "azure-storage-fs",
+  "version": "0.3.0",
+  "description": "A drop-in \"fs\" replacement for accessing Azure Storage with Node.js \"fs\" API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compulim/azure-storage-fs.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  },
+  "peerDependencies": {
+    "azure-storage": "^2.1.0"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "node-fetch": "^1.6.3",
+    "promise-retry": "^1.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "azure",
+    "blob",
+    "cloud",
+    "fs",
+    "microsoft",
+    "saas",
+    "smb",
+    "storage",
+    "windows"
+  ],
+  "optionalDependencies": {
+    "debug": "^2.6.3"
+  }
+}
